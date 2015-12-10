@@ -15,6 +15,7 @@ class WRTabBarViewController: UITabBarController {
         initTabBarViewController()
     }
     
+    
     func initTabBarViewController() -> UITabBarController {
         let messageListCtrl = WRConversationViewController()
         messageListCtrl.tabBarItem.title = "消息"

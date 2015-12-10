@@ -10,8 +10,22 @@
 		8AE3F36B1C09991800622E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F36A1C09991800622E9A /* AppDelegate.swift */; };
 		8AE3F36D1C09991800622E9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F36C1C09991800622E9A /* ViewController.swift */; };
 		8AE3F3701C09991800622E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3F36E1C09991800622E9A /* Main.storyboard */; };
-		8AE3F3721C09991800622E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3F3711C09991800622E9A /* Assets.xcassets */; };
 		8AE3F3751C09991900622E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3F3731C09991900622E9A /* LaunchScreen.storyboard */; };
+		8AE3F38B1C099A2A00622E9A /* WRConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3821C099A2A00622E9A /* WRConversationViewController.swift */; };
+		8AE3F38C1C099A2A00622E9A /* WRFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3831C099A2A00622E9A /* WRFindViewController.swift */; };
+		8AE3F38D1C099A2A00622E9A /* WRFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3841C099A2A00622E9A /* WRFriendViewController.swift */; };
+		8AE3F38E1C099A2A00622E9A /* WRMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3851C099A2A00622E9A /* WRMeViewController.swift */; };
+		8AE3F38F1C099A2A00622E9A /* WRTogetherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3861C099A2A00622E9A /* WRTogetherViewController.swift */; };
+		8AE3F3901C099A2A00622E9A /* WRTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3871C099A2A00622E9A /* WRTabBarViewController.swift */; };
+		8AE3F3911C099A2A00622E9A /* CGRectEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3881C099A2A00622E9A /* CGRectEx.swift */; };
+		8AE3F3921C099A2A00622E9A /* LGColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3891C099A2A00622E9A /* LGColorEx.swift */; };
+		8AE3F3931C099A2A00622E9A /* LGCommonEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F38A1C099A2A00622E9A /* LGCommonEx.swift */; };
+		8AE3F39A1C099AB600622E9A /* DGElasticPullToRefreshConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3951C099AB600622E9A /* DGElasticPullToRefreshConstants.swift */; };
+		8AE3F39B1C099AB600622E9A /* DGElasticPullToRefreshExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3961C099AB600622E9A /* DGElasticPullToRefreshExtensions.swift */; };
+		8AE3F39C1C099AB600622E9A /* DGElasticPullToRefreshLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3971C099AB600622E9A /* DGElasticPullToRefreshLoadingView.swift */; };
+		8AE3F39D1C099AB600622E9A /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3981C099AB600622E9A /* DGElasticPullToRefreshLoadingViewCircle.swift */; };
+		8AE3F39E1C099AB600622E9A /* DGElasticPullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3F3991C099AB600622E9A /* DGElasticPullToRefreshView.swift */; };
+		8AE3F3A01C099B2300622E9A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3F39F1C099B2300622E9A /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +33,23 @@
 		8AE3F36A1C09991800622E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AE3F36C1C09991800622E9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8AE3F36F1C09991800622E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AE3F3711C09991800622E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AE3F3741C09991900622E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AE3F3761C09991900622E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE3F3821C099A2A00622E9A /* WRConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WRConversationViewController.swift; path = src/WRConversationViewController.swift; sourceTree = "<group>"; };
+		8AE3F3831C099A2A00622E9A /* WRFindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WRFindViewController.swift; path = src/WRFindViewController.swift; sourceTree = "<group>"; };
+		8AE3F3841C099A2A00622E9A /* WRFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WRFriendViewController.swift; path = src/WRFriendViewController.swift; sourceTree = "<group>"; };
+		8AE3F3851C099A2A00622E9A /* WRMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WRMeViewController.swift; path = src/WRMeViewController.swift; sourceTree = "<group>"; };
+		8AE3F3861C099A2A00622E9A /* WRTogetherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WRTogetherViewController.swift; path = src/WRTogetherViewController.swift; sourceTree = "<group>"; };
+		8AE3F3871C099A2A00622E9A /* WRTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WRTabBarViewController.swift; path = src/WRTabBarViewController.swift; sourceTree = "<group>"; };
+		8AE3F3881C099A2A00622E9A /* CGRectEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CGRectEx.swift; path = src/CGRectEx.swift; sourceTree = "<group>"; };
+		8AE3F3891C099A2A00622E9A /* LGColorEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LGColorEx.swift; path = src/LGColorEx.swift; sourceTree = "<group>"; };
+		8AE3F38A1C099A2A00622E9A /* LGCommonEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LGCommonEx.swift; path = src/LGCommonEx.swift; sourceTree = "<group>"; };
+		8AE3F3951C099AB600622E9A /* DGElasticPullToRefreshConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshConstants.swift; sourceTree = "<group>"; };
+		8AE3F3961C099AB600622E9A /* DGElasticPullToRefreshExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshExtensions.swift; sourceTree = "<group>"; };
+		8AE3F3971C099AB600622E9A /* DGElasticPullToRefreshLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingView.swift; sourceTree = "<group>"; };
+		8AE3F3981C099AB600622E9A /* DGElasticPullToRefreshLoadingViewCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshLoadingViewCircle.swift; sourceTree = "<group>"; };
+		8AE3F3991C099AB600622E9A /* DGElasticPullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGElasticPullToRefreshView.swift; sourceTree = "<group>"; };
+		8AE3F39F1C099B2300622E9A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,85 @@
 		8AE3F3691C09991800622E9A /* WRSwiftChartProject */ = {
 			isa = PBXGroup;
 			children = (
+				8AE3F37C1C0999AA00622E9A /* WR_Conversion */,
+				8AE3F37D1C0999B500622E9A /* WR_Friend */,
+				8AE3F37E1C0999C100622E9A /* WR_Find */,
+				8AE3F37F1C0999CB00622E9A /* WR_Me */,
+				8AE3F3801C0999D600622E9A /* WR_Extension */,
+				8AE3F3811C0999E200622E9A /* WR_thirParty */,
 				8AE3F36A1C09991800622E9A /* AppDelegate.swift */,
+				8AE3F3871C099A2A00622E9A /* WRTabBarViewController.swift */,
 				8AE3F36C1C09991800622E9A /* ViewController.swift */,
 				8AE3F36E1C09991800622E9A /* Main.storyboard */,
-				8AE3F3711C09991800622E9A /* Assets.xcassets */,
 				8AE3F3731C09991900622E9A /* LaunchScreen.storyboard */,
 				8AE3F3761C09991900622E9A /* Info.plist */,
+				8AE3F39F1C099B2300622E9A /* Media.xcassets */,
 			);
 			path = WRSwiftChartProject;
+			sourceTree = "<group>";
+		};
+		8AE3F37C1C0999AA00622E9A /* WR_Conversion */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3F3821C099A2A00622E9A /* WRConversationViewController.swift */,
+				8AE3F3861C099A2A00622E9A /* WRTogetherViewController.swift */,
+			);
+			name = WR_Conversion;
+			sourceTree = "<group>";
+		};
+		8AE3F37D1C0999B500622E9A /* WR_Friend */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3F3841C099A2A00622E9A /* WRFriendViewController.swift */,
+			);
+			name = WR_Friend;
+			sourceTree = "<group>";
+		};
+		8AE3F37E1C0999C100622E9A /* WR_Find */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3F3831C099A2A00622E9A /* WRFindViewController.swift */,
+			);
+			name = WR_Find;
+			sourceTree = "<group>";
+		};
+		8AE3F37F1C0999CB00622E9A /* WR_Me */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3F3851C099A2A00622E9A /* WRMeViewController.swift */,
+			);
+			name = WR_Me;
+			sourceTree = "<group>";
+		};
+		8AE3F3801C0999D600622E9A /* WR_Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3F3881C099A2A00622E9A /* CGRectEx.swift */,
+				8AE3F3891C099A2A00622E9A /* LGColorEx.swift */,
+				8AE3F38A1C099A2A00622E9A /* LGCommonEx.swift */,
+			);
+			name = WR_Extension;
+			sourceTree = "<group>";
+		};
+		8AE3F3811C0999E200622E9A /* WR_thirParty */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3F3941C099AB600622E9A /* DGElasticPullToRefresh */,
+			);
+			name = WR_thirParty;
+			sourceTree = "<group>";
+		};
+		8AE3F3941C099AB600622E9A /* DGElasticPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3F3951C099AB600622E9A /* DGElasticPullToRefreshConstants.swift */,
+				8AE3F3961C099AB600622E9A /* DGElasticPullToRefreshExtensions.swift */,
+				8AE3F3971C099AB600622E9A /* DGElasticPullToRefreshLoadingView.swift */,
+				8AE3F3981C099AB600622E9A /* DGElasticPullToRefreshLoadingViewCircle.swift */,
+				8AE3F3991C099AB600622E9A /* DGElasticPullToRefreshView.swift */,
+			);
+			name = DGElasticPullToRefresh;
+			path = thirParty/DGElasticPullToRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE3F3751C09991900622E9A /* LaunchScreen.storyboard in Resources */,
-				8AE3F3721C09991800622E9A /* Assets.xcassets in Resources */,
+				8AE3F3A01C099B2300622E9A /* Media.xcassets in Resources */,
 				8AE3F3701C09991800622E9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +235,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE3F36D1C09991800622E9A /* ViewController.swift in Sources */,
+				8AE3F38F1C099A2A00622E9A /* WRTogetherViewController.swift in Sources */,
+				8AE3F38B1C099A2A00622E9A /* WRConversationViewController.swift in Sources */,
+				8AE3F3901C099A2A00622E9A /* WRTabBarViewController.swift in Sources */,
+				8AE3F39D1C099AB600622E9A /* DGElasticPullToRefreshLoadingViewCircle.swift in Sources */,
+				8AE3F3911C099A2A00622E9A /* CGRectEx.swift in Sources */,
+				8AE3F39B1C099AB600622E9A /* DGElasticPullToRefreshExtensions.swift in Sources */,
+				8AE3F3921C099A2A00622E9A /* LGColorEx.swift in Sources */,
+				8AE3F38C1C099A2A00622E9A /* WRFindViewController.swift in Sources */,
+				8AE3F39C1C099AB600622E9A /* DGElasticPullToRefreshLoadingView.swift in Sources */,
+				8AE3F39E1C099AB600622E9A /* DGElasticPullToRefreshView.swift in Sources */,
+				8AE3F38E1C099A2A00622E9A /* WRMeViewController.swift in Sources */,
+				8AE3F39A1C099AB600622E9A /* DGElasticPullToRefreshConstants.swift in Sources */,
+				8AE3F3931C099A2A00622E9A /* LGCommonEx.swift in Sources */,
 				8AE3F36B1C09991800622E9A /* AppDelegate.swift in Sources */,
+				8AE3F38D1C099A2A00622E9A /* WRFriendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +397,7 @@
 				8AE3F37B1C09991900622E9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
